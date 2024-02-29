@@ -1,0 +1,29 @@
+.city-page {
+    text-align: center;
+    padding: 50px;
+    height: 753px;
+}
+
+.city-page h1 {
+    font-size: 36px;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.city-images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.city-images img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.city-page p {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #333;
+}
