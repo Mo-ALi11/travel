@@ -1,0 +1,51 @@
+
+
+.profile {
+    text-align: center;
+    padding: 50px;
+    height: 753px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecf0f1; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.profile-photo {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info {
+    text-align: left;
+}
+
+.profile-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #3498db; /* Blue color */
+}
+
+.profile-info p {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.profile-info p:nth-child(2) {
+    color: #2ecc71; /* Green color for the Age */
+}
+
+.profile-info p:nth-child(3) {
+    color: #e74c3c; /* Red color for the Gender */
+}
